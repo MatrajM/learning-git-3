@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+$tlo:#2D4484;
+$autor: #556180;
+$tytul: #777777;
+body {
+    margin: 0;
+    background-color: $tlo;
+    h3 {
+        color: $autor;
+        text-align: center;
+        font-weight: bold;
+    }
+    h2 {
+        color: $tytul;
+        font-style: italic;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        color: white;
+        padding: 15px;
+        margin: 0 33%;
+    }
+}
